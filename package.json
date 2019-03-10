@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "builds json config files from user input via prompts",
   "bin": {
-    "promptcfg": "./bin/promptcfg.js"
+    "promptcfg": "./dist/promptcfg.js"
   },
   "publishConfig": {
     "access": "public"
@@ -27,5 +27,9 @@
     "mocha": "^6.0.2",
     "nyc": "^13.3.0",
     "tslint": "^5.13.1"
+  },
+  "dependencies": {
+    "@types/node": "^11.11.0",
+    "commander": "^2.19.0"
   }
 }

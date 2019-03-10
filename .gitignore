@@ -79,5 +79,8 @@ typings/
 # DynamoDB Local files
 .dynamodb/
 
+# dist
+dist/
+
 #until done and ready to be packaged...
 package-lock.json
